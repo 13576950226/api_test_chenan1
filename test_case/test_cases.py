@@ -11,6 +11,7 @@ class Test_Case(unittest.TestCase, Link_Mysql):
         link_mysql = Link_Mysql()
         link_mysql.link_myql("select *  from chenan")
 
-    def test_redandwait(self):
+    """"def test_redandwait(self):
         link_mysql = Link_Mysql()
         link_mysql.red_or_wirt_execl()
+    """

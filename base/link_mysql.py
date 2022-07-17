@@ -24,7 +24,7 @@ class Link_Mysql:
         suc.close()
         connte.close()
 
-    def red_or_wirt_execl(self):
+    """def red_or_wirt_execl(self):
         file = r"D:/test_case2.xlsx"
         workbook = load_workbook(file)
         worksheet = workbook.worksheets[0]
@@ -32,3 +32,4 @@ class Link_Mysql:
             worksheet.cell(i, 1).value = "99999999"
         workbook.save(r"D:/test_case2.xlsx")
         workbook.close()
+    """
